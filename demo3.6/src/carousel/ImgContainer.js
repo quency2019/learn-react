@@ -23,7 +23,6 @@ class ImgContainer extends Component {
     tick=16;
     timer=null;
     switchTo(index){
-        console.log(index)
         if (index<0){
             index=0
         } else if(index>this.props.imgSrcs.length-1){
