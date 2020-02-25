@@ -1,0 +1,23 @@
+.points{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    padding: 2px 4px;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 10px;
+
+}
+.points span{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 3px;
+    cursor: pointer;
+
+}
+.points span.active{
+    background-color: #ffa724;
+}
